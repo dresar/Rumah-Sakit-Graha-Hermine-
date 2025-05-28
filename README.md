@@ -202,5 +202,5 @@ Project Link: [https://github.com/yourusername/hospital](https://github.com/your
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Eka Syarif Maulana</a>
+  Made with ❤️ by <a href="https://github.com/dresar">Eka Syarif Maulana</a>
 </p>
