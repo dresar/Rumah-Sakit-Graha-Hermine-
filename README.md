@@ -1,4 +1,4 @@
-# BeliBeli Official - Web Profile Rumah Sakit
+# RS Graha Hermine Batam
 
 <p align="center">
   <img src="https://via.placeholder.com/800x400?text=BeliBeli+Official+Hospital+Profile" alt="BeliBeli Official Hospital Profile" width="800"/>
