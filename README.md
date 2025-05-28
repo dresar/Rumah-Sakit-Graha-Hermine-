@@ -183,7 +183,7 @@ Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanj
 
 ## 📞 Contact
 
-Project Link: [https://github.com/yourusername/belibeli-hospital](https://github.com/yourusername/belibeli-hospital)
+Project Link: [https://github.com/yourusername/hospital](https://github.com/yourusername/belibeli-hospital)
 
 ## 💖 Support
 
@@ -202,5 +202,5 @@ Project Link: [https://github.com/yourusername/belibeli-hospital](https://github
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+  Made with ❤️ by <a href="https://github.com/yourusername">Eka Syarif Maulana</a>
 </p>
