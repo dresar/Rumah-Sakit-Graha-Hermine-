@@ -1,66 +1,206 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# BeliBeli Official - Web Profile Rumah Sakit
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://via.placeholder.com/800x400?text=BeliBeli+Official+Hospital+Profile" alt="BeliBeli Official Hospital Profile" width="800"/>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#database-structure">Database Structure</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="https://github.com/yourusername/belibeli-hospital/stargazers"><img src="https://img.shields.io/github/stars/yourusername/belibeli-hospital" alt="Stars Badge"/></a>
+  <a href="https://github.com/yourusername/belibeli-hospital/network/members"><img src="https://img.shields.io/github/forks/yourusername/belibeli-hospital" alt="Forks Badge"/></a>
+  <a href="https://github.com/yourusername/belibeli-hospital/issues"><img src="https://img.shields.io/github/issues/yourusername/belibeli-hospital" alt="Issues Badge"/></a>
+  <a href="https://github.com/yourusername/belibeli-hospital/blob/master/LICENSE"><img src="https://img.shields.io/github/license/yourusername/belibeli-hospital" alt="License Badge"/></a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🏥 About
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**BeliBeli Official - Web Profile Rumah Sakit** adalah aplikasi web profil rumah sakit yang komprehensif, dirancang untuk memudahkan pasien dan pengunjung dalam mengakses informasi tentang layanan kesehatan, dokter, fasilitas, dan berita terkini dari rumah sakit. Aplikasi ini dibangun dengan Laravel 9, menawarkan antarmuka yang intuitif dan responsif untuk pengalaman pengguna yang optimal.
 
-## Learning Laravel
+## ✨ Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 👥 Untuk Pengunjung
+- **Informasi Poliklinik & Layanan**: Akses informasi lengkap tentang berbagai poliklinik dan layanan kesehatan yang tersedia
+- **Profil Dokter**: Lihat profil dokter beserta spesialisasi dan jadwal praktik
+- **Galeri Rumah Sakit**: Jelajahi galeri foto fasilitas dan kegiatan rumah sakit
+- **Blog Kesehatan**: Baca artikel dan tips kesehatan terbaru
+- **E-Library**: Akses perpustakaan digital dengan berbagai materi kesehatan
+- **Video Edukasi**: Tonton video edukasi kesehatan dari YouTube
+- **Pencarian**: Temukan informasi dengan cepat melalui fitur pencarian
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 👨‍💼 Untuk Admin
+- **Dashboard Admin**: Panel kontrol untuk mengelola seluruh konten website
+- **Manajemen Konten**: Kelola poliklinik, layanan, dokter, jadwal, blog, dan galeri
+- **Upload Media**: Unggah dan kelola gambar dan video
+- **Manajemen Pengguna**: Kelola akun admin dan hak akses
+- **Analitik**: Pantau statistik pengunjung website
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Tech Stack
 
-## Laravel Sponsors
+- **Backend**: Laravel 9, PHP 8.x
+- **Frontend**: Blade Templates, JavaScript, Bootstrap
+- **Database**: MySQL/SQLite
+- **Media Storage**: Local Storage/AWS S3
+- **Deployment**: Apache/Nginx
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 📋 Requirements
 
-### Premium Partners
+- PHP >= 8.0
+- Composer
+- Node.js & NPM
+- MySQL/SQLite
+- Web Server (Apache/Nginx)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🚀 Installation
 
-## Contributing
+### Menggunakan MySQL
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/yourusername/belibeli-hospital.git
+   cd belibeli-hospital
+   ```
 
-## Code of Conduct
+2. **Install dependencies**
+   ```bash
+   composer install
+   npm install
+   npm run build
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. **Setup environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## Security Vulnerabilities
+4. **Konfigurasi database di file .env**
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=laravelcompany
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. **Migrasi dan seed database**
+   ```bash
+   php artisan migrate:fresh --seed
+   ```
 
-## License
+6. **Jalankan aplikasi**
+   ```bash
+   php artisan serve
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Menggunakan SQLite
+
+1. **Buat file database SQLite**
+   ```bash
+   touch database/database.sqlite
+   ```
+
+2. **Konfigurasi database di file .env**
+   ```
+   DB_CONNECTION=sqlite
+   # Hapus atau komentari baris DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD
+   ```
+
+3. **Migrasi dan seed database**
+   ```bash
+   php artisan migrate:fresh --seed
+   ```
+
+## 🔧 Usage
+
+### Akses Frontend
+Buka browser dan akses `http://localhost:8000` untuk melihat website rumah sakit.
+
+### Akses Admin Panel
+1. Buka `http://localhost:8000/login`
+2. Login dengan kredensial admin:
+   - Username: `admin`
+   - Password: `admin123`
+   
+   atau
+   
+   - Username: `kusuka`
+   - Password: `123456`
+
+## 📷 Screenshots
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x200?text=Homepage" alt="Homepage" width="400"/>
+  <img src="https://via.placeholder.com/400x200?text=Doctor+Profiles" alt="Doctor Profiles" width="400"/>
+</p>
+
+<p align="center">
+  <img src="https://via.placeholder.com/400x200?text=Services" alt="Services" width="400"/>
+  <img src="https://via.placeholder.com/400x200?text=Admin+Dashboard" alt="Admin Dashboard" width="400"/>
+</p>
+
+## 📊 Database Structure
+
+Aplikasi ini menggunakan beberapa model utama:
+
+- **User**: Admin dan pengguna sistem
+- **Layanan_poliklinik**: Informasi tentang poliklinik dan layanan
+- **Dokter**: Data dokter dan spesialisasi
+- **JadwalDokter**: Jadwal praktik dokter
+- **Blog**: Artikel dan berita kesehatan
+- **PostCategory**: Kategori untuk artikel blog
+- **Galeri**: Foto kegiatan dan fasilitas
+- **KategoriGaleri**: Kategori untuk galeri foto
+- **Elibrary**: Materi edukasi digital
+- **Folder**: Pengorganisasian materi e-library
+- **YtLink**: Link video edukasi YouTube
+- **Fasilitas_Layanan**: Informasi fasilitas rumah sakit
+- **Partnership**: Data kerjasama dengan institusi lain
+
+## 🤝 Contributing
+
+Kontribusi selalu disambut! Jika Anda ingin berkontribusi:
+
+1. Fork repository
+2. Buat branch fitur baru (`git checkout -b feature/amazing-feature`)
+3. Commit perubahan Anda (`git commit -m 'Add some amazing feature'`)
+4. Push ke branch (`git push origin feature/amazing-feature`)
+5. Buka Pull Request
+
+## 📄 License
+
+Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+
+## 📞 Contact
+
+Project Link: [https://github.com/yourusername/belibeli-hospital](https://github.com/yourusername/belibeli-hospital)
+
+## 💖 Support
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/yourusername" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+  <a href="https://www.linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/yourusername"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+</p>
